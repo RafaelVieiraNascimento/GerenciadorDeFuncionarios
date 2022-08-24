@@ -6,13 +6,13 @@
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.VBox?>
 
-<VBox prefHeight="264.0" prefWidth="283.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+<VBox xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.MainViewController">
    <children>
       <Label text="Nome">
          <VBox.margin>
             <Insets left="20.0" top="20.0" />
          </VBox.margin></Label>
-      <TextField>
+      <TextField fx:id="name">
          <VBox.margin>
             <Insets left="20.0" right="20.0" />
          </VBox.margin></TextField>
@@ -21,7 +21,7 @@
             <Insets left="20.0" top="10.0" />
          </VBox.margin>
       </Label>
-      <TextField>
+      <TextField fx:id="position">
          <VBox.margin>
             <Insets left="20.0" right="20.0" />
          </VBox.margin></TextField>
@@ -30,11 +30,11 @@
             <Insets left="20.0" top="10.0" />
          </VBox.margin>
       </Label>
-      <TextField>
+      <TextField fx:id="salary">
          <VBox.margin>
             <Insets left="20.0" right="20.0" />
          </VBox.margin></TextField>
-      <Label text="ID: gerado automaticamente">
+      <Label fx:id="ID" text="ID: 1">
          <padding>
             <Insets top="10.0" />
          </padding>
@@ -42,9 +42,9 @@
             <Insets left="20.0" />
          </VBox.margin>
       </Label>
-      <Button mnemonicParsing="false" text="Cadastrar">
+      <Button fx:id="register" mnemonicParsing="false" onAction="#register" text="Cadastrar">
          <VBox.margin>
-            <Insets left="20.0" top="25.0" />
+            <Insets left="20.0" top="20.0" />
          </VBox.margin>
       </Button>
    </children>

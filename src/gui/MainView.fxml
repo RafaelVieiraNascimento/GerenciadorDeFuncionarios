@@ -14,16 +14,16 @@
               <menus>
                 <Menu mnemonicParsing="false" text="Cadastro">
                      <items>
-                        <MenuItem fx:id="menuItemNovo" mnemonicParsing="false" onAction="#onMenuItemNovoAction" text="Novo" />
-                        <MenuItem fx:id="menuItemDeletar" mnemonicParsing="false" onAction="#onMenuItemDeletarAction" text="Deletar" />
-                        <MenuItem fx:id="menuItemAlterar" mnemonicParsing="false" onAction="#onMenuItemAlterarAction" text="Alterar" />
+                        <MenuItem fx:id="menuItemNew" mnemonicParsing="false" onAction="#onMenuItemNewAction" text="Novo" />
+                        <MenuItem fx:id="menuItemDelete" mnemonicParsing="false" onAction="#onMenuItemDeleteAction" text="Deletar" />
+                        <MenuItem fx:id="menuItemChange" mnemonicParsing="false" onAction="#onMenuItemChangeAction" text="Alterar" />
                      </items></Menu>
                 <Menu mnemonicParsing="false" text="Pesquisar">
                      <items>
-                        <MenuItem fx:id="menuItemPorID" mnemonicParsing="false" onAction="#onMenuItemPorIDAction" text="Por ID" />
-                        <MenuItem fx:id="menuItemPorNome" mnemonicParsing="false" onAction="#onMenuItemPorNomeAction" text="Por Nome" />
-                        <MenuItem fx:id="menuItemPorCargo" mnemonicParsing="false" onAction="#onMenuItemPorCargoAction" text="Por Cargo" />
-                        <MenuItem fx:id="menuItemPorSalario" mnemonicParsing="false" onAction="#onMenuItemPorSalarioAction" text="Por Salário" />
+                        <MenuItem fx:id="menuItemIDResearch" mnemonicParsing="false" onAction="#onMenuItemIDResearchAction" text="Por ID" />
+                        <MenuItem fx:id="menuItemNameResearch" mnemonicParsing="false" onAction="#onMenuItemNameResearchAction" text="Por Nome" />
+                        <MenuItem fx:id="menuItemPositionResearch" mnemonicParsing="false" onAction="#onMenuItemPositionResearchAction" text="Por Cargo" />
+                        <MenuItem fx:id="menuItemSalaryResearch" mnemonicParsing="false" onAction="#onMenuItemSalaryResearchAction" text="Por Salário" />
                      </items></Menu>
               </menus>
             </MenuBar>
