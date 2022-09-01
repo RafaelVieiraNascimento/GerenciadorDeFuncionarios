@@ -20,10 +20,10 @@
                      </items></Menu>
                 <Menu mnemonicParsing="false" text="Pesquisar">
                      <items>
-                        <MenuItem fx:id="menuItemIDResearch" mnemonicParsing="false" onAction="#onMenuItemIDResearchAction" text="Por ID" />
-                        <MenuItem fx:id="menuItemNameResearch" mnemonicParsing="false" onAction="#onMenuItemNameResearchAction" text="Por Nome" />
-                        <MenuItem fx:id="menuItemPositionResearch" mnemonicParsing="false" onAction="#onMenuItemPositionResearchAction" text="Por Cargo" />
-                        <MenuItem fx:id="menuItemSalaryResearch" mnemonicParsing="false" onAction="#onMenuItemSalaryResearchAction" text="Por Salário" />
+                        <MenuItem fx:id="menuItemIDSearch" mnemonicParsing="false" onAction="#onMenuItemIDSearchAction" text="Por ID" />
+                        <MenuItem fx:id="menuItemNameSearch" mnemonicParsing="false" onAction="#onMenuItemNameSearchAction" text="Por Nome" />
+                        <MenuItem fx:id="menuItemPositionSearch" mnemonicParsing="false" onAction="#onMenuItemPositionSearchAction" text="Por Cargo" />
+                        <MenuItem fx:id="menuItemSalarySearch" mnemonicParsing="false" onAction="#onMenuItemSalarySearchAction" text="Por Salário" />
                      </items></Menu>
               </menus>
             </MenuBar>

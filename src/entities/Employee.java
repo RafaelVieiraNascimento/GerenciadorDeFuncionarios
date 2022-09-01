@@ -7,6 +7,11 @@ public class Employee {
 	
 	
 	private static Map <Integer, Employee> employeeMap = new TreeMap<Integer, Employee>();
+	
+	public static Map<Integer, Employee> getEmployeeMap() {
+		return employeeMap;
+	}
+
 	private String name;
 	private Position position;
 	private double salary;
@@ -26,11 +31,40 @@ public class Employee {
 		this.salary = salary;
 	}
 	
+	
+	
+	public String getName() {
+		return name;
+	}
+
+
+	public Position getPosition() {
+		return position;
+	}
+
+
+	public double getSalary() {
+		return salary;
+	}
+
+
+	public static  Employee getEmployee (int key) {
+		return employeeMap.get(key);
+	}
+	
+
 	public boolean putMap (Employee employee) {
 		employeeMap.put(this.ID, employee);
 		ID++;
 		return true;
 	}
+
+	@Override
+	public String toString() {
+		return "Employee [name=" + name + ", position=" + position + ", salary=" + salary + "]";
+	}
+	
+	
 	
 
 }
